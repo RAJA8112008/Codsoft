@@ -1,0 +1,81 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;  /* light black / dark gray */
+    color: #f0f0f0;             /* light text for contrast */
+}
+
+/* Header */
+header {
+    background-color: #111827;  /* darker header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Job list */
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Job card */
+.job-card {
+    background-color: #1f2937;  /* dark card background */
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.7);
+}
+
+/* Job title */
+.job-card h2 {
+    margin-bottom: 10px;
+    color: #60a5fa;  /* light blue for contrast */
+}
+
+/* Apply button */
+.apply-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #2563eb; /* blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.apply-btn:hover {
+    background-color: #3b82f6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111827;
+    color: white;
+    margin-top: 40px;
+}
